@@ -7,7 +7,7 @@ type childrenType = {
 };
 export const Layout = ({ children }: childrenType) => {
   return (
-    <Box display="flex" flexDirection="column" height="98vh" overflow="hidden">
+    <Box display="flex" flexDirection="column" height="98vh" >
       <Navbar brandName="Photo-Book" />
       <Box flexGrow="1">{children}</Box>
       <Footer />
