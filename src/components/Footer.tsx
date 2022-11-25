@@ -12,7 +12,6 @@ export const Footer = () => {
       alignItems="center"
       padding="1rem"
       color="#1A659E"
-      flexBasis="795px"
     >
       <Box display="flex" gap="1rem">
         <LinkedInIcon fontSize="large" />
