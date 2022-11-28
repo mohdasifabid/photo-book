@@ -17,7 +17,7 @@ export const ImageCard = ({img, title} : ImageCardTypes) => {
   const [isLiked, setIsLiked] = useState(false);
   const likeHandler = (truefalse: boolean) => setIsLiked(truefalse);
   return (
-    <Card sx={{ minWidth: 300 }}>
+    <Card sx={{ minWidth: 300, maxWidth: 300 }}>
       <CardActionArea>
         <CardMedia
           component="img"
